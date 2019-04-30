@@ -6,7 +6,6 @@ class Counters extends Component {
     render() { 
 
         // fantastic object distructuring
-
         const {onReset, onDelete, onIncrement, counters} = this.props;
 
         return (
